@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+
+	background-color: #F5F5F5;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+        padding-top: 75px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 7px;
+        padding-right: 200px;
+
+}
+
+main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+
+
+.contribua-agora h1{
+        line-height: 35px;
+        font-size: 36px;
+        padding-bottom: 36px;
+}
+
+.frase-motivacional h1{
+        font-size: 14px;
+        padding-bottom: 40px;
+}
+
+.link-para-login button{
+        box-sizing: border-box;
+        background-color: #F5F5F5;
+	width: 282px;
+	height: 50px;
+	border-radius: 3em;
+	border: 0.5px solid #4B4B4B;
+	margin-bottom: 25px;
+}
+
+.link-para-login button a {
+        text-decoration: none;
+        letter-spacing: 0.01em;
+        color: #000000;
+}
+
+.link-para-cadastro button{
+        box-sizing: border-box;
+	width: 282px;
+	height: 50px;
+	background: #1A1A1A;
+	border: 0.5px solid #4B4B4B;
+	border-radius: 3em;
+}
+
+.link-para-cadastro button a {
+        text-decoration: none;
+        letter-spacing: 0.01em;
+        color: #F5F5F5;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+
+	background-color: #F5F5F5;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+        display: flex;
+        justify-content: center;
+}
+
+.logo {
+        padding-top: 40px;
+        padding-bottom: 45px;
+        width: 38px;
+}
+
+main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+.texto-crie-sua-conta h1{
+        padding-right: 75px;
+        font-size: 24px;
+        color: #1A1A1A;
+        padding-bottom: 30px;
+}
+
+.login input{
+        box-sizing: border-box;
+        background-color: #F5F5F5;
+        width: 260px;
+	height: 38px;
+        border: 0.5px solid #4B4B4B;
+        border-radius: 5px;
+}
+.login {
+        padding-bottom: 25px;
+}
+
+.e-mail input{
+        box-sizing: border-box;
+        background-color: #F5F5F5;
+        width: 260px;
+	height: 38px;
+        border: 0.5px solid #4B4B4B;
+        border-radius: 5px;
+}
+.e-mail {
+        padding-bottom: 49px;
+}
+
+.senha input{
+        box-sizing: border-box;
+        background-color: #F5F5F5;
+        width: 260px;
+	height: 38px;
+        border: 0.5px solid #4B4B4B;
+        border-radius: 5px;
+}
+.senha {
+        padding-bottom: 45px;
+}
+
+.input-box input{
+	box-sizing: border-box;
+	width: 260px;
+	height: 38px;
+	background: #1A1A1A;
+	border: 0.5px solid #4B4B4B;
+	border-radius: 20px;
+	margin-bottom: 25px;
+        color: #F5F5F5;
+}
+
+.inscreva-se a{
+	font-size: 12px;
+        text-decoration: none;
+        color: #4B4B4B;
+}
+
+.inscreva-se a strong{
+        color: #000;
+}
+
